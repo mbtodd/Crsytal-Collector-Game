@@ -1,0 +1,82 @@
+
+
+
+body{
+	background-image: url("../images/bokeh1.jpeg");
+	background-size: 100%;
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+	font-family: cursive;
+	
+}
+h3 {
+	font-family: cursive;
+	}
+ol{
+	list-style: decimal inside; 
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+li { 
+	font-family: cursive;
+	font-size: 16px;
+
+}
+div.header, div.gems{
+	background-color: #94c9e6c5;
+}
+div.header, div.instructions{
+	width: 70%;
+
+}
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+	background-color: rgba(250, 115, 216, 0.171);
+
+}
+.instructions {
+	background-color: rgba(255, 218, 185, 0.24);
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+	background-color: #fad9872d;
+}
+.gems{
+	clear: both;
+	background-color: #00aa5875;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
